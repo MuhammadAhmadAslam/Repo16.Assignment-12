@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Grape';
+    src: url(Fonts/Grape_Nuts/GrapeNuts-Regular.ttf);
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(Fonts/Raleway/Raleway-VariableFont_wght.ttf);
+}
+@media screen and (max-width: 600px) {
+}
+nav{
+    overflow: hidden;
+    width: 100%;
+}
+ nav a{
+    text-decoration: none;
+    color: purple;
+    display: inline-block;
+    /* margin-left: 80px; */
+    text-align: right;
+    float: right;
+    margin-right: 120px;
+    font-size: 130%;
+    margin-top: 40px;
+    font-family: 'Grape';
+}
+nav h1{
+    color: #E1C8AA;
+    display: inline-block;
+    margin-left: 60px;
+    font-size: 350%;
+    margin-top: 30px;
+    font-family: 'Raleway';
+}
+h1 span{
+    color: purple;
+    font-family: 'Grape';
+}
+#div1{
+    background-image: url(images/main1.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 75.4vh;
+}
+#button1{
+    color: white;
+    background-color: #79C8E8;
+    display: inline;
+    width: 280px;
+    margin-top: 220px;
+    margin-left: 160px;
+    font-size: larger;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#div1 h4{
+    color: #12265A;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-size: 300%;
+    font-family: 'Raleway';
+}
+#div1 #para1{
+    color: darkslategray;
+    margin-top: 20px;
+    margin-left: 160px;
+    width: 780px;
+    text-align: justify;
+}
+#button2{
+    background-color: #FFC85B;
+    color: white;
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: x-large;
+    font-family: 'Raleway';
+    margin-top: 40px;
+    margin-left: 160px;
+} 
+
+
+/* this is div 2 section  */
+
+#div2{
+    width: 24vw;
+    border: 1px solid red;
+    margin-top: 30px;
+    /* display: inline-block; */
+    float: left;
+}
+#div2 img{
+    width: 22vw;
+    height: auto;
+    margin-left: 11px;
+}
+#div2 h1{
+    color: darkslategray;
+    text-align: center;
+}
+
+
+/* this is div3 section  */
+
+
+#div3{
+    display: inline-block;
+    float: right;
+    width: 74vw;
+    margin-top: 30px;
+    
+}
+.d1{
+    width: 130px;
+    border: 1px dashed black;
+    height: 130px;
+    background-color: #fa9db7;
+    margin-left: 48px;
+    display: inline-block;
+    margin-top: 45px;
+    border-radius: 20px;
+}
+.d1 img{
+    width: 30px;
+    margin: 15px;
+}
+.d1 h1{
+    color: white;
+}
